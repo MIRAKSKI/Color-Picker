@@ -1,0 +1,241 @@
+.hoster {
+  width: auto;
+  height: 100%;
+}
+.header {
+  width: auto;
+  height: 45px;
+  padding: 0px 0px;
+  border-bottom: 1px solid #808080;
+}
+.hostframeXX {
+  margin: 0px;
+  border: none;z-index: 0;align-items: center;align-content: center;text-align: center;
+  margin-left: auto;margin-right: auto;width: 97.5%;height: 91%;
+  position: absolute;top: 55px;left: 50%;transform: translateX(-50%);
+  background: rgba(255, 255, 255,0.13);
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+}
+.hostframeXX iframe {
+  margin: 0px;width: 100%;height: 100%;border: none;
+}
+.menu {
+  background: transparent;
+  padding: 0px 0px 0px 0px;
+  top :0px;
+  position: absolute;
+  z-index: 4;
+  width: auto;
+  height: auto;
+  max-height: 90%;
+}
+.sidepl {
+  position:relative;
+  width: 300px;padding: 5px 0px 0px 0px;
+  height: 100%;display: block;
+  border-radius: 5px 0px 0px 5px;
+  background: rgba(200,200,200, 0.08);
+  backdrop-filter: blur(50px);
+  animation-name: grow;
+  animation-duration: 0.3s;
+}
+.sidepl .menbutt {
+  position:absolute;top:0px;left: 0px;
+}
+@keyframes grow {
+  0% {width: 0px}
+  100% {width: 300px}
+}
+.buttholder {
+  position: relative;
+  display: inline-block;
+  left: 9px;padding: 5px 0px 0px 0px;
+}
+.trbutt {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 25px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 5px 0px 5px ;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.trbutt:hover {
+  border: 1px solid red;
+  color:red;
+}
+.trbutt:disabled {
+  border: 1px solid darkgray;
+  color:darkgray;
+  background-color: white;
+  cursor: not-allowed;
+}
+.trbutt:disabled:hover {
+  border: 1px solid darkgray;
+  color:darkgray;
+  background-color: white;
+}
+.menbutt {
+  position: relative;
+  background: transparent;
+  border: none;padding: 5px 0px 0px 0px;
+  font-size: 36px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 12px 0px 12px ;
+  cursor: pointer;
+}
+.menbutt:hover {
+  color: red;
+}
+#searchHome {
+  width: 28%;
+  height: 25px;
+  margin: 7px 7px;
+  padding: 2px 8px ;
+  border: none;
+  border-radius: 9px;
+  position: fixed;
+  left: 35.5%;
+  color: black;
+  background: rgba(255, 255, 255,0.13);
+  backdrop-filter: blur(15px);
+  text-align: center;
+  font-size: 16px;
+}
+body {
+  background-image: url("img/bkdp~1.gif");backdrop-filter:blur(15px);
+  margin: 0px;padding: 0px;background-position: center;
+  background-repeat: no-repeat;background-size: cover;overflow: hidden;
+}
+.bot3 {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  border: 0.5px solid #808080;
+  border-radius: 0px;
+  background: white;
+  cursor: pointer;
+}
+.bot3:hover {
+  background: red;
+  color: white;
+  border: 0.5px solid #FFF;
+  border-radius: 0px;
+}
+.mospc .spcopr {
+  width: 100%;
+  height: 45px;
+  color: white;
+  background: green;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.mospc .spcopr:hover {
+  color: black;
+  background: green;
+  background: rgba(255, 255, 255, 0.3);
+  border: 0.1px solid gray;
+}
+.mospc {
+  width: 100%;padding: 40px 0px 0px 0px;
+  min-height: auto;
+  border: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;;
+}
+.social {
+  height: 30.1px;
+  width: auto;
+  margin: 4.95px;
+  position: absolute;
+  right: 3%;
+}
+.watchholder p {
+  font-size: 27.9px;
+  color: white;
+}
+.watchholder {
+  position: absolute;
+  top: -17px;
+  left: 10%;
+  height: 28px;
+  padding: 0px;
+  margin: 0px;
+}
+.hoster img {
+  border: none;
+  background: none;
+}
+.hoster img:hover {
+  box-shadow: 0px 0px 5px 5px #FFF;
+  background: white;
+}
+img#IMG {
+  border: none;
+  background: none;
+}
+img#IMG:hover {
+  box-shadow: none;
+  background: transparent;
+}
+.holder {
+  width: 50.5px;
+  height: 50.5px;
+  z-index: 6;
+}
+#IMG {
+  position: relative;
+  animation-name: upwe;
+  animation-duration: 1s;
+}
+@keyframes upwe {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+.buttons-holder #escp {
+  width: 40px;height: 40px;background: rgba(200,200,200,0.05);border: none;
+  backdrop-filter:blur(10px);position: absolute;bottom: 10px;left: 10px;font-size: 20px;
+  font-weight: bold;
+}
+.buttons-holder #escp:hover {
+  color: red;font-size: 18;background: rgba(200,200,200,0.15);
+}
+.Context-Menu {
+  width: 140px;height: 65px;background: rgba(200, 200, 200, 0.7);
+  border: 0.5px solid rgba(60, 60, 60, 0.7);border-radius: 10px;overflow: hidden;
+  position: absolute;z-index: 20;margin: 0px
+}
+.inerholder {
+  width: 100%;height: 100%; display: inline-grid;
+   align-items: center; justify-content: center;
+}
+.inerholder hr {
+  width: 100%;height: 1px; background: rgba(60, 60, 60, 0.7);margin: 0px;
+}
+.inerholder input {
+  width: 100%;height: 95%; background: rgba(200,200,200,0.1);
+  border: rgba(60, 60, 60, 0.7);
+}
+.inerholder input:hover {
+  width: 100%;height: 90%; background: rgba(240,240,240,0.85);
+  border-radius: 5px;
+}
